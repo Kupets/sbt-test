@@ -1,4 +1,4 @@
-package interfaces.home
+package interfaces.task
 
 import controllers.AssetsFinder
 import javax.inject._
@@ -9,7 +9,7 @@ import play.api.mvc._
   * application's home page.
   */
 @Singleton
-class HomeController @Inject()(cc: ControllerComponents)(implicit assetsFinder: AssetsFinder)
+class TaskController @Inject()(cc: ControllerComponents)(implicit assetsFinder: AssetsFinder)
   extends AbstractController(cc) {
 
   /**
@@ -19,7 +19,7 @@ class HomeController @Inject()(cc: ControllerComponents)(implicit assetsFinder: 
     * a path of `/`.
     */
   def index = Action {
-    Ok(views.html.index("Your new application is fucking ready."))
+    Ok(views.html.index("Your new task application is fucking ready."))
   }
 
   def tasks = TODO

@@ -3,7 +3,7 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                           interfaces.home.HomeController.index
+GET     /                           interfaces.task.TaskController.index
 # An example controller showing how to use dependency injection
 #GET     /count                      controllers.CountController.count
 # An example controller showing how to write asynchronous code
@@ -11,3 +11,9 @@ GET     /                           interfaces.home.HomeController.index
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(file)
+
+# Tasks
+GET     /tasks                      interfaces.task.TaskController.tasks
+POST    /tasks                      interfaces.task.TaskController.newTask
+POST    /tasks/:id/delete           interfaces.task.TaskController.deleteTask(id: Long)
+POST    /tasks/:id/complete         interfaces.task.TaskController.completeTask(id: Long)
