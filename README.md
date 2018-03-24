@@ -19,4 +19,4 @@
     - [Пример меню] (https://www.youtube.com/watch?v=F8Arpb4JX4E&list=PLmcxdcWPhFqMq2BctGktOcIJKUw23wJeh&index=12)
     - [Модальное окно] (https://www.youtube.com/watch?v=St4-x9Cz04A)
 
-![](https://github.com/Kupets/sbt-test/blob/master/readme/mongodb connection.png)
+![](https://github.com/Kupets/sbt-test/blob/master/readme/mongodb-connection.png)
