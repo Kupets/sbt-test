@@ -27,4 +27,4 @@
 
 ![](https://github.com/Kupets/spring-mvc-crud/blob/master/src/main/resources/img/messages.png)
 
-https://cloud.mongodb.com
+[https://cloud.mongodb.com] (https://cloud.mongodb.com)
